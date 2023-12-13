@@ -1,0 +1,66 @@
+.gral {
+    font-family: 'Space Grotesk', sans-serif;
+}
+div {
+    box-sizing: border-box;
+}
+.upbar {
+    width: 100%;
+    height: 20%;
+    background: white;
+    text-align: center;
+}
+.titulo {
+    padding: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.body {
+    width: 100%;
+    height: 90%;
+    background: rgb(196, 196, 196);
+    padding: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+} 
+/* Empieza el cuadro gral*/
+.frame {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #000;
+    margin: 50px auto;
+}
+/*cuadro del titulo*/
+.Img-title-bar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background: white;
+}
+.mini-titulo {
+    width: 50%;
+    padding: 0px 0px 0px 5px;
+    font-weight: 400;
+}
+.count-img {
+    width: 50%;
+    text-align: right;
+    padding: 0px 5px 0px 0px;
+}
+/*cuadro de la imagen*/
+.img-frame {
+    height: 80%;
+    width: 100%;
+}
+img {
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+/*cuadro de la descripcion*/
+.parrafo {
+    height: 10%;
+    background: white;
+}
+.text-parrafo {
+    padding: 3px;
+    margin: auto;  
+}
